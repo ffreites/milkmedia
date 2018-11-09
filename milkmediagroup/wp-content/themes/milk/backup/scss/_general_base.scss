@@ -1,0 +1,370 @@
+@font-face {
+    font-family: '#{$icomoon-font-family}';
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?736rhi');
+    src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?736rhi#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?736rhi') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?736rhi') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?736rhi##{$icomoon-font-family}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: '#{$icomoon-font-family}' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    vertical-align: bottom;
+}
+
+.icon-milk_shake_icon {
+    &:before {
+        content: $icon-milk-shake;
+        color: #fff952;
+    }
+}
+
+.icon-milk_icon {
+    &:before {
+        content: $icon-milk;
+        color: #fff952;
+    }
+}
+
+.icon-coofee_icon {
+    &:before {
+        content: $icon-coofee;
+        color: #fff952;
+    }
+}
+
+.icon-cookie_icon {
+    &:before {
+        content: $icon-cookie;
+        color: #fff952;
+    }
+}
+
+.icon-biberon_icon {
+    &:before {
+        content: $icon-biberon;
+        color: #fff952;
+    }
+}
+
+.icon-cereal_icon {
+    &:before {
+        content: $icon-cereal;
+        color: #fff952;
+    }
+}
+
+.icon-facebook {
+    &:before {
+        content: $icon-facebook;
+    }
+}
+
+.icon-twitter {
+    &:before {
+        content: $icon-twitter;
+    }
+}
+
+.icon-instagram {
+    &:before {
+        content: $icon-instagram;
+    }
+}
+
+.icon-menu {
+    &:before {
+        content: $icon-menu;
+    }
+}
+
+.single-post {
+    .content_wrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .form-submit input[type="submit"] {
+        background-color: black !important;
+    }
+}
+
+.milk {
+    background-color: $grey-background;
+    a{
+        &:hover{
+            text-decoration: none!important;
+        }
+    }
+
+    .button {
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-width: 1px !important;
+        border-radius: 0;
+        transition: all ease 300ms;
+        padding: 15px;
+
+        &:hover {
+            color: black;
+            background-color: white;
+        }
+
+        .button_icon {
+            display: none;
+        }
+
+        .button_label {
+            float: none;
+            position: relative;
+            z-index: 2;
+            font-family: "lato";
+            font-size: 14px;
+            padding: 0 15px;
+        }
+    }
+
+    .fixed-nav .arrow {
+        background-color: #fff952;
+        color: black;
+    }
+
+    .post-item,
+    .post {
+        .image_frame .image_wrapper .image_links a {
+            background-color: $yellow;
+
+            i {
+                color: black;
+            }
+
+            &:hover {
+                background: $yellow;
+                color: #0095eb;
+
+                i {
+                    color: black;
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .post-desc-wrapper {
+            .post-desc {
+                padding: 0px 20px 20px 10px;
+
+                .entry-title {
+                    font-weight: 600;
+                    letter-spacing: 0px;
+                    font-family: "Lato";
+                    font-size: 20px;
+                }
+
+                .post-excerpt {
+                    margin-bottom: 15px;
+                    font-size: 12px;
+                    line-height: 17px;
+                    font-family: "lato";
+                }
+            }
+
+            .post-footer {
+                background-color: $yellow;
+                padding: 3px;
+
+                .button-love,
+                .icon-comment-empty-fa,
+                .post-comments,
+                .icon-doc-text {
+                    display: none;
+                }
+
+                .post-more {
+                    color: black;
+                    margin-right: 15px;
+                    transition: all ease 300ms;
+
+                    &:hover {
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .menu_wrapper .responsive-menu-toggle {
+        i {
+            display: none;
+        }
+
+        &:before {
+            content: $icon-menu;
+            font-family: 'milk-icons';
+            font-size: 21px;
+            line-height: 30px;
+            color: black;
+        }
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    #Top_bar.is-sticky .menu>li>a span {
+        line-height: 53px;
+
+        &:not(.description) {
+            padding: 0 15px;
+        }
+    }
+
+    #Top_bar .menu>li>a span:not(.description) {
+        padding: 0 15px;
+    }
+
+    .menu-main {
+        li a {
+            line-height: 53px !important;
+        }
+
+        #menu-item-3635 a {
+            padding: 0px 20px 0px 20px !important;
+
+            >span {
+                display: none !important;
+            }
+
+            &:before {
+                content: $icon-twitter;
+                font-family: 'milk-icons';
+                font-size: 25px;
+            }
+        }
+
+        #menu-item-3636 a {
+            padding: 0px 20px 0px 20px !important;
+
+            >span {
+                display: none !important;
+            }
+
+            &:before {
+                content: $icon-instagram;
+                font-family: 'milk-icons';
+                font-size: 25px;
+            }
+        }
+
+        #menu-item-3634 a {
+            padding: 0px 20px 0px 20px !important;
+
+            >span {
+                display: none !important;
+            }
+
+            &:before {
+                content: $icon-facebook;
+                font-family: 'milk-icons';
+                font-size: 25px;
+            }
+        }
+    }
+
+    #Header {
+        margin: 0 55px;
+
+        .logo {
+            height: 55px;
+
+            a {
+                padding: 0 !important;
+                font-size: 25px;
+                height: 55px !important;
+                line-height: 55px !important;
+                font-weight: 600 !important;
+            }
+        }
+
+        #Top_bar {
+
+            .menu_wrapper a,
+            .menu_wrapper span {
+                font-family: 'Lato';
+                font-family: 16px;
+                font-weight: 600;
+            }
+
+            height: 55px;
+
+            .menu.menu-main {
+                li>a {
+                    padding: 0;
+                    height: 55px;
+
+                    span {
+                        height: 55px;
+                        line-height: 55px;
+                    }
+                }
+            }
+
+            &.is-sticky {
+                box-shadow: none;
+                margin: 0 55px 0 0;
+
+                .menu_wrapper {
+                    margin-right: 80px;
+                }
+
+                #logo {
+                    padding: 5px 0 !important;
+                    height: 55px !important;
+                    line-height: 45px !important;
+                }
+            }
+        }
+    }
+
+    #Footer {
+        z-index: 36;
+        // position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: white;
+        border-top: 1px solid #ececec;
+
+        .column.one {
+            margin: 0;
+            padding: 0;
+        }
+
+        .copyright {
+            position: absolute;
+            padding: .5em;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        a#back_to_top {
+            background-color: white !important;
+        }
+    }
+}

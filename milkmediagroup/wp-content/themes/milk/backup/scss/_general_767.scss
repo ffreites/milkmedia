@@ -1,0 +1,29 @@
+.milk #Header #Top_bar.is-sticky {
+    #logo {
+        float: left !important;
+        margin-left: 15px !important;
+    }
+    .responsive-menu-toggle {
+        position: absolute;
+        width: 40px;
+        top: 35px !important;
+        right: 11%;
+    }
+}
+
+#logo {
+    float: left !important;
+    margin-left: 15px !important;
+}
+
+.milk #Top_bar {
+    .menu_wrapper {
+        position: absolute;
+        top: -10px;
+        right: -50px;
+    }
+    .logo #logo {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+}

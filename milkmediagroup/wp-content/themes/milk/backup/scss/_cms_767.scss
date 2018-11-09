@@ -1,0 +1,396 @@
+.logoscorp{
+    .banner-about-us-page .about-us-section-banner{
+        background-size: contain !important;
+        height: 330px;
+        .about-us-banner {
+            padding: 0 10px;
+        }
+        .text-about-us{
+            padding: 0 39px !important;
+            p {
+                line-height: 16px;
+            }
+            h2{
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .items-about-us-page {
+        background-image: none !important;
+        .items-about-us-wrap{
+            margin-top: 0;
+            .mcb-wrap-inner {
+                display: grid;
+                grid-template-columns: 150px 150px;
+                grid-template-areas: 'mision mision' 'vision valores';
+                justify-content: center;
+                grid-gap: 0 20px;
+                .valor{
+                    .about-us-items{
+                        height: 250px;
+                        .item-2, .item-3{
+                            padding: 20px 8px 0;
+                        }
+                    }
+                    h2{
+                        text-align: left;
+                        font-size: 16px;
+                        line-height: 0px;
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-bottom: 16px;
+                    }
+                }
+                .valor-mision{
+                    grid-area: mision;
+                }
+                .valor-vision{
+                    grid-area: vision;
+                }
+                .valor-valores{
+                    grid-area: valores;
+                    ul{
+                        margin-left: 6px;
+                        line-height: 16px;
+                        li{
+                            font-size: 12px;
+                            &:before{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .section-for-values .wrap-for-values{
+        .image-seccion-values{
+            margin-left: 0;
+            margin-right: 20px;
+        }
+        .text-section-values {
+            width: 45%;
+            .content-for-values{
+                padding: 0 45px;
+                h1{
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .image-seccion-values{
+            .image-for-values-section{
+                overflow: hidden;
+                height: 440px;
+                width: 380px;
+                img {
+                    transform: scale(1.8);
+                    padding-top: 70px;
+                }
+            }
+        }
+    }
+    
+    .section-for-structure .wrap-for-structure {
+        margin-top: 0;
+        .content-text-for-structure {
+            display: flex;
+            height: 275px;
+            margin-bottom: 60px;
+            .clearfix{
+                align-self: center;
+                margin-right: 30px;
+            }
+            .content-structure{
+                text-align: right;
+                h2 {
+                    color: $light-blue;
+                    margin-bottom: 30px;
+                    margin-left: 10px;
+                }
+                a{
+                    display: flex;
+                    width: 100%;
+                    height: 40px;
+                    justify-content: flex-end;
+                    .structure-link-page{
+                        position: absolute;
+                        height: 40px;
+                        width: 220px;
+                        background-color: $orange;
+                        text-align: center;
+                        border-radius: 50px;
+                        color: #FFF;
+                        font-weight: 500;
+                        font-size: 16px;
+                        display: grid;
+                        span{
+                            align-self: center;
+                        }
+                    }
+                }
+            }
+        }
+        .image-for-structure {
+            margin: 0;
+            .image-structure{
+                margin-top: 0;
+            }
+        }
+    }
+
+    .section-for-reinsurance {
+        padding-top: 50px !important;
+        .wrap-for-reinsurance .content-for-reinsurance{
+            .top-bg-for-reinsurance {
+                grid-template-columns: repeat(2, 176px);
+                grid-template-rows: repeat(2, 176px);
+                grid-template-areas: 'a a' 'b c';
+                justify-content: center;
+                .image-bg{
+                    grid-area: a;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        width: 350px;
+                        height: 176px !important;
+                    }
+                    .text-bg{
+                        width: 320px;
+                        h2{
+                            font-size: 22px;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .image-redbrige{
+                    grid-area: b;
+                } 
+                .image-provincial{
+                    grid-area: c;
+                }
+            }
+            .bottom-bg-for-reinsurance {
+                grid-template-columns: 176px 176px;
+                img{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .section-for-bg-gradient .wrap-for-bg-gradient .content-for-bg-gradient {
+        .bg-gradient-section{
+            h3{
+                font-size: 20px;
+                padding: 0 140px;
+                text-align: center;
+            }
+        }
+    }
+
+
+    .section-for-finance-bg {
+        background-position: bottom right !important;
+        padding-bottom: 100px !important;
+        .section_wrapper{
+            padding: 0 !important;
+            margin: 5% 33px 0;        
+            .content-for-finance-bg {
+                margin: 0;
+                .finance-management-content {
+                    grid-template-columns: 100%;
+                    margin-left: 0;
+                    .finance-management-form {
+                        width: auto;
+                        margin-left: 0;
+                        margin-top: 0;  
+                        margin-top: -5px;              
+                        .content {
+                            padding: 50px 35px;
+                        }
+                        h2 {
+                            font-size: 28px;
+                        }
+                        select {
+                            height: 40px;
+                        }
+                        p {
+                            font-family: 'Lora';
+                            line-height: 20px;
+                            font-size: 12px;
+                        }
+                        button {
+                            width: 180px;
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .section-for-banner-persons {
+        background-size: contain;
+        background-position: center bottom !important;
+        .wrap-for-banner-persons .content-for-banner-persons {
+            height: 85px;
+            .text-for-persons {
+                grid-template-rows: 85px;
+                h2{
+                    margin: 0;
+                    font-size: 16px;
+                    padding-top: 6px;
+                }
+            }
+        }
+    }
+
+    .section-for-coms-persons .wrap-for-coms-persons {
+        background: linear-gradient(to right, #f8f8f8 0%,#f8f8f8 50%, #ffffff 50%, #ffffff 100%) !important;
+        .content-for-coms-persons-1 {
+            height: 195px !important;
+            .clearfix{
+                padding: 0 !important;
+            }
+            .content-text p {
+                font-size: 14px;       
+            }
+        }
+    }
+
+    .section-for-benefit-ind .wrap-for-benefit-ind {
+        .column_placeholder{
+            display: none;
+        }
+    }
+
+    .section-for-benefits-col .wrap-for-benefits-col {
+        .image-for-benefits-col .image_wrapper {
+            margin-top: -48px;
+            margin-right: 0;
+        }
+        .content-for-benefits-col .content .text-for-benefit-col{
+            padding: 50px 0 0 20px;
+        }
+    }
+    .section-for-benefits-individual .wrap-for-benefits-individual {
+        .content-for-benefits-individual-1 .text-for-benefit-ind{
+            padding-right: 0px;
+        }
+        .content-for-benefits-individual-2 {
+            margin: 80px 0 0;
+            .image-benefit-ind{
+                width: auto;
+                transform: scale(1.3);
+            }
+        }
+    }
+
+    .section-for-solidarity {
+        padding-top: 0 !important;
+        .section_wrapper {
+            max-width: 100%;
+            .content-text-for-solidarity {
+                width: 32%;
+                height: 300px;
+                .clearfix{
+                    padding: 0 !important;
+                }
+                .content-sure-solidarity{
+                    height: 180px;
+                }
+            }
+            .column_image .image_wrapper{
+                transform: scale(1.2)
+            }
+        }
+    }
+    .section-for-bg-gradient {
+        padding-top: 25px !important;
+        .wrap-for-bg-gradient .content-for-bg-gradient {
+            .bg-gradient-section{
+                h3{
+                    padding: 0 60px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+    .wrap-for-contact-form{
+        margin-top: -150px;
+        .content-for-text{
+            padding: 0;
+        }
+        .content-for-form{
+            border-left: none;
+            padding: 30px 0 0 0;
+            border-top: 1px solid rgba(112, 112, 112, 0.13);
+        }
+    }
+
+    form{
+        .form-3fr{
+            grid-template-columns: 1fr;
+            grid-gap: 0px;
+        }
+    }
+
+    .content-for-collapse{
+        margin: 0;
+        .content-sucursales{
+            padding: 0 30px 50px;
+        }
+    }
+    .image-for-collapse{
+        display: none;
+    }
+
+    .wrap-for-image-left {
+        .image-cv{
+            .image_wrapper{
+                height: auto;
+            }
+            img{
+                transform: scale(1)
+            }
+        }
+    }
+    .wrap-for-text-content {
+        margin-top: 0px;
+    }
+
+    .content-for-cv {
+        width: 100% !important;
+        .clearfix {
+            padding: 50px 20px 30px;
+            margin: 0 30px;
+        }
+    }
+    .templatera_shortcode{
+        margin: 0;
+        .section-for-bg-gradient{
+            padding: 0 !important;
+            .content-for-bg-gradient{
+                margin: 0;
+            }
+        }
+    }
+    .wrap-for-image-rigth{
+        padding: 0 30px !important;
+    }
+
+    .section-for-at-client-banner .wrap-for-at-client-banner 
+    .content-for-at-client-banner .at-client-text h2 {
+        margin-bottom: 140px;
+    }
+}

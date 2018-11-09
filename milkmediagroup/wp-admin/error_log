@@ -1,0 +1,9 @@
+[09-Jul-2018 18:00:15 UTC] WordPress database error Unknown column 'mlk_' in 'field list' for query SELECT mlk_
+[18-Jul-2018 22:07:50 UTC] Error Table 'm3k7yxx1_milkwordpress.mlk_posts' doesn't exist de la base de datos de WordPress para la consulta SELECT * FROM mlk_posts WHERE ID = 3 LIMIT 1 realizada por do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WP_Privacy_Policy_Content::text_change_check, current_user_can, call_user_func_array, WP_User->has_cap, call_user_func_array, map_meta_cap, get_post, WP_Post::get_instance
+[22-Oct-2018 20:37:11 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:37:48 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:39:08 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:43:19 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:45:59 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:46:20 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0
+[22-Oct-2018 20:46:29 America/Chicago] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 749.368 429.138">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-size: 108px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: LeagueSpartan-Bold, League Spartan;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 115px;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0 -0.197)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M365.532,169.2h0a3.186,3.186,0,0,0-.594-1.783h0L314.417,61.328V7.835A6.725,6.725,0,0,0,307.582,1H65.974a6.725,6.725,0,0,0-6.835,6.835v52.9L.892,166.827v.3c-.3.3-.3.892-.594,1.189v.3A2.679,2.679,0,0,0,0,170.1V395.953c.892,10.1,7.727,30.015,29.124,31.8H336.408c21.1-1.783,28.232-21.694,29.124-31.8V169.2Zm-57.95-90.937L348,163.26H266.571ZM72.809,14.67H300.747V55.681H72.809ZM70.135,69.351H296.883L251.415,163.26H18.425ZM13.67,395.061V176.931H248.74v237.15H30.015C16.048,412.595,13.967,397.439,13.67,395.061Zm321.846,19.02H262.41V176.931h89.451v218.13C351.564,397.736,349.484,412.595,335.517,414.081Z" transform="translate(0 1.584)"/>
+    <text id="milk" class="cls-2" transform="translate(383.368 97.197)"><tspan x="0" y="0">milk</tspan></text>
+    <text id="media" class="cls-2" transform="translate(383.368 230.263)"><tspan x="0" y="0">media</tspan></text>
+    <text id="group" class="cls-3" transform="translate(383.368 369.456)"><tspan x="0" y="0">group</tspan></text>
+  </g>
+</svg>

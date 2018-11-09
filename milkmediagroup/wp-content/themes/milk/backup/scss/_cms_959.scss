@@ -1,0 +1,319 @@
+.logoscorp{
+    .banner-about-us-page{
+        padding-bottom: 530px !important;
+        background: #005b94 !important;
+        .about-us-section-banner {
+            background-image: url(/wp-content/uploads/2018/07/nosotros_banner_responsive.png) !important;
+            background-size: cover !important;
+            .text-about-us {
+                padding: 0 34px;
+                h2 {
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-size: 12px !important;            
+                }
+            }
+            .column-about-us {
+                width: 100%;
+                margin: 70% 0 0;
+            }
+        }
+    }
+    .items-about-us-page{
+        padding-top: 0 !important;
+        background-image: none !important;
+        margin-top: -83px;
+        .about-us-items {
+            .item-1, .item-2, .item-3 {
+                padding: 20px 17px 0;
+                p{
+                    font-size: 12px;
+                }
+                ul {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+    .texto-pago-en-linea {
+        box-shadow: none;
+    }
+    
+    .section-for-values .wrap-for-values{
+        .image-seccion-values{
+            margin-left: 0;
+            margin-right: 20px;
+        }
+        .text-section-values {
+            width: 45%;
+            .content-for-values{
+                padding: 0;
+                h1{
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .image-seccion-values{
+            .image-for-values-section{
+                overflow: hidden;
+                height: 440px;
+                img {
+                    transform: scale(1.8);
+                    padding-top: 70px;
+                }
+            }
+        }
+    }
+    
+    .section-for-structure .wrap-for-structure {
+        margin-top: -48px;
+        .content-text-for-structure {
+            display: flex;
+            height: 275px;
+            width: 40%;
+            .clearfix{
+                align-self: center;
+                margin-right: 30px;
+            }
+            .content-structure{
+                h2 {
+                    font-size: 22px;
+                }
+                a .structure-link-page{
+                    width: 130px;
+                    font-size: 12px;
+                    span{
+                        align-self: center;
+                    }
+                }
+            }
+        }
+        .image-for-structure {
+            margin: 0 0 0 20px;
+            width: 54%;
+            .image-structure{
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .section-for-reinsurance {
+        padding-top: 0 !important;
+        .wrap-for-reinsurance .content-for-reinsurance{
+            .top-bg-for-reinsurance {
+                grid-template-columns: 384px 176px 176px;
+                grid-template-rows: 176px;
+                .image-bg{
+                    grid-template-columns: 95%;
+                    img{
+                        width: 384px;
+                        height: 176px !important;
+                    }
+                    .text-bg{
+                        padding-right: 0;
+                        h2{
+                            font-size: 22px;
+                            margin: 0;
+                        }
+                        p {
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .image-redbrige, .image-provincial{
+                    width: 176px;
+                }
+            }
+            .bottom-bg-for-reinsurance {
+                grid-template-columns: 176px 176px;
+                img{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .section-for-bg-gradient .wrap-for-bg-gradient .content-for-bg-gradient {
+        .bg-gradient-section{
+            h3{
+                font-size: 20px;
+                padding: 0 140px;
+                text-align: center;
+            }
+        }
+    }
+
+
+    .section-for-finance-bg {
+        margin-bottom: 50px !important;
+        .section_wrapper{
+            margin-top: 100px;
+            .content-for-finance-bg {
+                margin: 0;
+                .finance-management-content {
+                    grid-template-columns: 348px 480px;
+                    margin-left: 0;
+                    .finance-management-form {
+                        height: 300px;
+                        width: 480px;
+                        .content {
+                            padding: 45px 50px;
+                        }
+                        h2 {
+                            color: $light-blue;
+                        }
+                        select {
+                            border: 1px solid rgba(112, 112, 112, 0.13);
+                            border-radius: 10px;
+                            font-family: Arial;
+                            font-size: 14px;
+                            padding-left: 30px;
+                            width: 100%;
+                            height: 50px;
+                            &:after{
+                                content: '\+'
+                            }
+                        }
+                        p {
+                            font-family: 'Lora';
+                            line-height: 20px;
+                            font-size: 16px;
+                        }
+                        button {
+                            color: #FFF;
+                            font-size: 16px;
+                            font-weight: 500;
+                            background-color: $orange;
+                            width: 220px;
+                            border-radius: 30px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //
+
+    .section-for-banner-persons {
+        background-size: contain;
+        .wrap-for-banner-persons .content-for-banner-persons {
+            height: 156px;
+            .text-for-persons {
+                grid-template-rows: 156px;
+            }
+        }
+    }
+
+    .section-for-coms-persons .wrap-for-coms-persons {
+        .image_wrapper{
+            display: flex;
+            height: 360px;
+            .scale-with-grid{
+                max-width: 70% !important;
+                align-self: center;
+            }
+        }
+        .content-for-coms-persons-1 {
+            width: 100%;
+            .clearfix{
+                padding: 0 8% !important;
+            }
+            .content-text p {
+                font-size: 20px;       
+            }
+        }
+        .column_image{
+            display: none;
+        }
+    }
+
+    .section-for-benefit-ind .wrap-for-benefit-ind {
+        .column_placeholder{
+            width: 41.666%;
+        }
+        .content-bg-gradient {
+            width: 54.333%;
+        }
+    }
+
+    .section-for-benefits-col .wrap-for-benefits-col {
+        .image-for-benefits-col .image_wrapper {
+            margin-top: -150px;
+            height: 490px;
+        }
+        .content-for-benefits-col .content .text-for-benefit-col{
+            padding: 50px 0 0 20px;
+        }
+    }
+    .section-for-benefits-individual .wrap-for-benefits-individual {
+        .content-for-benefits-individual-1 .text-for-benefit-ind{
+            padding-right: 25px;
+        }
+        .content-for-benefits-individual-2 .image-benefit-ind{
+            width: 400px;
+        }
+    }
+
+    .section-for-solidarity .section_wrapper {
+        max-width: 100%;
+        .content-text-for-solidarity {
+            width: 32%;
+            height: 300px;
+        }
+        .column_image{
+            width: 65%;
+            margin-right: 0;
+        }
+    }
+
+    .image-for-collapse {
+        margin-bottom: 0;
+        .image_wrapper{
+            img{
+                transform: scale(1.7);
+            }
+        }
+    }
+    .section-cv{
+        padding-top: 0 !important;
+    }
+    .content-for-cv{
+        width: 88%;
+    }
+
+    .wrap-for-contact-form{
+        .content-for-text{
+            width: 22%;
+            p{
+                font-size: 14px;
+            }
+            h3{
+                font-size: 18px;
+            }
+            .image-tel{
+                padding-top: 10px;
+                padding-bottom: 20px;
+            }
+            p.color-paragraf{
+                display: none;
+            }
+        }
+        .content-for-form {
+            width: 68%;
+            form p textarea{
+                height: 50px;
+            }
+            input[type="submit"]{
+                width: 130px;
+            }
+        }
+    } 
+
+}

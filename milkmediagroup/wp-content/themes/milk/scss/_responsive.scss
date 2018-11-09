@@ -1,0 +1,58 @@
+/**** Laptop *****/
+@media only screen and (max-width: 1590px) {
+  @import "_general_1590";
+  @import "_home_1590";
+  @import "_cms_1590";
+}
+
+
+/**** Landscape *****/
+@media only screen and (max-width: 1239px) {
+  @import "_general_1239";
+  @import "_home_1239";
+  @import "_cms_1239";
+}
+
+/* Portrait */
+@media only screen and (max-width: 1024px) {
+
+  @import "_home_1024";
+
+}
+
+
+
+/* Portrait */
+@media only screen and (max-width: 992px) {
+
+  @import "_general_959"; 
+  @import "_home_992";
+  @import "_cms_959";
+
+
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+  @import "_general_767";
+  @import "_home_767";
+  @import "_cms_767";
+
+
+}
+
+@media only screen and (max-width: 667px) {
+  @import "_home_667";
+}
+
+@media only screen and (max-width: 480px) {
+
+  @import "_home_480";
+
+  @import "_general_480";
+
+
+
+}

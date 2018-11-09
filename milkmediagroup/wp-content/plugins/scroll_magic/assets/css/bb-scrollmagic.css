@@ -1,0 +1,20 @@
+.bbsm-text-left {
+  text-align: left;
+}
+
+.bbsm-text-center {
+  text-align: center;
+}
+
+.bbsm-text-right {
+  text-align: right;
+}
+
+.bbsm-single-image {
+  display: inline-block;
+}
+
+.bbsm-single-image img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=bb-scrollmagic.css.map */

@@ -1,0 +1,445 @@
+.page-id-3623.milk {
+    #Header {
+        margin: 0 55px;
+        .logo {
+            height: 55px;
+            a {
+                padding: 0 !important;
+                font-size: 25px;
+                height: 55px !important;
+                line-height: 55px !important;
+                font-weight: 600 !important;
+            }
+        }
+        #Top_bar {
+            .menu_wrapper a,
+            .menu_wrapper span {
+                font-family: 'Lato';
+                font-family: 16px;
+                font-weight: 600;
+            }
+            height: 55px;
+            .menu.menu-main {
+                li>a {
+                    padding: 0;
+                    height: 55px;
+                    span {
+                        height: 55px;
+                        line-height: 55px;
+                    }
+                }
+            }
+            &.is-sticky {
+                box-shadow: none;
+                margin: 0 55px 0 0;
+                .menu_wrapper {
+                    margin-right: 80px;
+                }
+                #logo {
+                    padding: 5px 0 !important;
+                    height: 55px !important;
+                    line-height: 45px !important;
+                }
+            }
+        }
+    }
+    #Content {
+        padding-top: 0px;
+        .content_wrapper {
+            margin: 0 40px 0 40px;
+            .border-left {
+                position: fixed;
+                height: 100vh;
+                width: 60px;
+                left: -18px;
+                top: 50px;
+                background-color: white;
+                margin: 0;
+                padding: 0;
+            }
+            .border-right {
+                position: fixed;
+                height: 100vh;
+                width: 55px;
+                right: -15px;
+                top: 50px;
+                background-color: white;
+            }
+            .border-bottom {
+                position: fixed;
+                width: 100vw;
+                height: 55px;
+                right: -15px;
+                bottom: -40px;
+                background-color: white;
+                display: none;
+            }
+        }
+    }
+    .hero-section {
+        overflow: hidden;
+        .section_wrapper,
+        .container {
+            max-width: 100%;
+        }
+        .white-column {
+            background-color: white;
+            transition: all ease 1s;
+            &.animated {
+                width: 0%;
+            }
+        }
+        .yellow-column {
+            background-color: $yellow;
+            transition: all ease 1s;
+            &.animated {
+                width: 100%;
+            }
+        }
+        .white-column,
+        .yellow-column {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            height: 1700px;
+        }
+        .container-logo {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all ease 1s;
+            opacity: 1;
+            width: 90%;
+            &.animated {
+                transform: translate(-38.5%, -50%);
+                position: fixed;
+            }
+            &.hidden {
+                opacity: 0;
+            }
+            .image_wrapper {
+                text-align: right;
+                img {
+                    width: 50%;
+                }
+            }
+            .text-logo .image_wrapper {
+                text-align: left;
+            }
+            .text-logo {
+                opacity: 1;
+                transition: all ease 500ms;
+                &.hidden {
+                    opacity: 0;
+                }
+            }
+        }
+        .hero-text {
+            position: fixed;
+            z-index: 1000;
+            transform: translate(15%, -50%);
+            top: 48%;
+            max-width: 75%;
+            min-height: 160px;
+            h3 {
+                opacity: 0;
+                position: absolute;
+                transition: all ease 800ms;
+                font-size: 60px;
+                line-height: 80px;
+                font-family: "poppins";
+                &.animated {
+                    &#one {
+                        opacity: 1;
+                    }
+                    &#two {
+                        opacity: 1;
+                    }
+                    &#three {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .container-logo.display-none {
+            opacity: 0;
+        }
+    }
+    .meet-milkers-section {
+        padding: 0;
+        margin: 0em 0;
+        .column {
+            width: 100%;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+        }
+        .meet-milkers {
+            width: 50%;
+            padding: 0;
+            margin: 0;
+            .meet-milkers-text {
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 70%;
+                left: 50%;
+                font-size: 14px;
+                line-height: 25px;
+                h3 {
+                    font-size: 26px;
+                    line-height: 40px;
+                    span{
+                                            display: block; 
+                    }
+
+                }
+                p {
+                    color: black;
+                }
+            }
+        }
+        .bio-text {
+            font-size: 12px; 
+            line-height: 18px;
+            h4 {
+                &:before {
+                    display: inline-block;
+                    content: "";
+                    border-top: .4rem solid $yellow;
+                    width: 4rem;
+                    position: absolute;
+                    top: 115%;
+                }
+            }
+            &.adriana {
+                width: 140px;
+                top: 2%;
+                h4:before {
+                    left: -31px;
+                }
+            }
+            &.andres {
+                right: 0;
+                width: 140px;
+                text-align: end;
+                top: 2%;
+                padding-right: 25px;
+                h4:before {
+                    right: -32px;
+                }
+            }
+        }
+    }
+    .instagram-section {
+        margin: 2em 0;
+        .column {
+            width: 100%;
+        }
+        .instagram-feed-container {
+            max-width: 80%;
+            margin: 0 auto;
+            float: none;
+            h3 {
+                font-size: 38px;
+                margin: 1em 0;
+                margin-top: 1em;
+                font-weight: 600;
+                margin-top: 1.2em;
+                margin-bottom: 1.5em;
+                &:before {
+                    background-image: url(/wp-content/uploads/2018/07/Instagram.svg);
+                    padding: 0px 45px;
+                    content: "";
+                    background-repeat: no-repeat;
+                    top: 130%;
+                    max-height: 50px;
+                }
+            }
+        }
+        .lines {
+            position: absolute;
+            top: 35%;
+            left: 7%;
+            width: auto;
+        }
+        .zig-zag {
+            position: absolute;
+            top: 15%;
+            right: -2%;
+            z-index: 10;
+            width: auto;
+        }
+    }
+    .contact-section {
+        margin: 2em 0;
+        .column {
+            width: 100%;
+        }
+        .contact-container {
+            max-width: 64%;
+            margin: 0 auto;
+            float: none;
+            h3 {
+                font-size: 38px;
+                margin: 1em 0;
+                margin-top: 1em;
+                font-weight: 600;
+                margin-top: .8em;
+                margin-bottom: 1.5em;
+            }
+            form {
+                input,
+                textarea {
+                    border-color: #E5E5E5;
+                    font-size: 12px;
+                    font-family: "lato";
+                    color: #707070;
+                }
+            }
+            .wpcf7-submit {
+                width: 100%;
+                background-color: black;
+                border: 1px solid black;
+                border-radius: 0;
+                transition: all ease 200ms;
+                color: white;
+                &:hover {
+                    border: 1px solid black;
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+    .blog-section .milk-blog-container .milk-blog {
+        .post-item {
+            .image_frame .image_wrapper .image_links a {
+                background-color: $yellow;
+                i {
+                    color: black;
+                }
+                &:hover {
+                    background: $yellow;
+                    color: #0095eb;
+                    i {
+                        color: black;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            .post-desc-wrapper {
+                .post-desc {
+                    padding: 0px 20px 20px 10px;
+                    .entry-title {
+                        font-weight: 600;
+                        letter-spacing: 0px;
+                        font-family: "Lato";
+                        font-size: 20px;
+                    }
+                    .post-excerpt {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                        line-height: 17px;
+                        font-family: "lato";
+                    }
+                }
+                .post-footer {
+                    background-color: $yellow;
+                    padding: 3px;
+                    .button-love,
+                    .icon-comment-empty-fa,
+                    .post-comments,
+                    .icon-doc-text {
+                        display: none;
+                    }
+                    .post-more {
+                        color: black;
+                        margin-right: 15px;
+                        transition: all ease 300ms;
+                        &:hover {
+                            font-weight: 600;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .services-section {
+        min-height: 620px;
+        position: relative;
+        .section_wrapper {
+            padding: 2% 2% 2% 2%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 85%;
+            background-color: white;
+            .service-item {
+                height: 124px;
+                width: 124px;
+                .service-wrapper {
+                    .image-wrapper {
+                        width: 124px;
+                        height: 124px;
+                        cursor: pointer;
+                        .image {
+                            width: 80px;
+                            height: 100%;
+                            &:before {
+                                font-size: 50px;
+                            }
+                        }
+                        .title {
+                            opacity: 1;
+                            background: white;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            transition: all ease 300ms;
+                        }
+                    }
+                    .desc-wrapper {
+                        width: 0px;
+                        padding: 0px;
+                        opacity: 0;
+                        transition: all ease 300ms;
+                        overflow: hidden;
+                        p {
+                            font-size: 12px;
+                            line-height: 15px;
+                        }
+                        h4 {
+                            font-size: 14px;
+                            line-height: 12px;
+                            font-weight: 600;
+                        }
+                        .title,
+                        .content {
+                            width: 100%;
+                        }
+                    }
+                }
+                &.open {
+                    width: 345px;
+                    .image-wrapper {
+                        .title {
+                            opacity: 0;
+                        }
+                    }
+                    .desc-wrapper {
+                        width: 315px;
+                        padding: 15px;
+                        opacity: 1;
+                        height: 90px;
+                    }
+                }
+            }
+        }
+    }
+}

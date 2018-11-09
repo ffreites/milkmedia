@@ -1,0 +1,18 @@
+.milk {
+    #Header {
+        #Top_bar {
+            .menu.menu-main {
+                li>a {
+                    padding: 0;
+                    height: 55px;
+
+                    span {
+                        height: 55px;
+                        line-height: 55px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

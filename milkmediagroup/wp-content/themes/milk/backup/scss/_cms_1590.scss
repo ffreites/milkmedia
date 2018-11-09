@@ -1,0 +1,61 @@
+.logoscorp {
+    .banner-about-us-page .about-us-section-banner {
+        margin-top: 0;
+        .column_placeholder {
+            width: 5%;
+        }
+        .column-about-us {
+            width: 38%;
+            .text-about-us {
+                padding-right: 0;
+            }
+        }
+    }
+    .section-for-values .wrap-for-values .text-section-values .content-for-values {
+        padding-top: 0;
+        padding-right: 0;
+        h1 {
+            margin-bottom: 0;
+            font-size: 30px;
+        }
+        p {
+            font-size: 14px;
+        }
+        p.title {
+            line-height: 15px;
+        }
+    }
+    .section-for-structure .wrap-for-structure .image-for-structure .image-structure {
+        margin-top: -14%;
+    }
+    .section-for-reinsurance {
+        padding-bottom: 50px !important;
+        .wrap-for-reinsurance .content-for-reinsurance {
+            .top-bg-for-reinsurance {
+                grid-template-columns: 848px 270px 270px;
+                grid-template-rows: 270px;
+                .image-bg {
+                    grid-template-columns: 70%;
+                    img {
+                        width: 848px;
+                    }
+                }
+            }
+            .bottom-bg-for-reinsurance {
+                grid-template-columns: 270px 270px;
+            }
+        }     
+    }  
+    .section-for-benefits-col .wrap-for-benefits-col .image-for-benefits-col .image_wrapper {
+        margin-top: -198px;
+        margin-right: 4px;
+    }
+    .section-cv .wrap-for-text-content {
+        .column_placeholder{
+            width: 10%;
+        }
+        .content-for-cv{
+            width: 50%;
+        }
+    }
+}

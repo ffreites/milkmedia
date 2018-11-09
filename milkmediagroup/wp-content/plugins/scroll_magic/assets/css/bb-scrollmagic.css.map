@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACf,UAAU,EAAE,IAAI;CAChB;;AACD,AAAA,iBAAiB,CAAC;EACjB,UAAU,EAAE,MAAM;CAClB;;AACD,AAAA,gBAAgB,CAAC;EAChB,UAAU,EAAE,KAAK;CACjB;;AACD,AAAA,kBAAkB,CAAC;EAClB,OAAO,EAAE,YAAY;CAIrB;;AALD,AAEC,kBAFiB,CAEjB,GAAG,CAAC;EACH,SAAS,EAAE,IAAI;CACf",
+    "sources": [
+        "bb-scrollmagic.scss"
+    ],
+    "names": [],
+    "file": "bb-scrollmagic.css"
+}
